@@ -1,5 +1,5 @@
 console.log("************************************************************************************");
-console.log("!\t\t !!!!! mk_test v1.0  locked, cocked, and ready to RAWWWWWWK !!!!!");
+console.log("!\t !!!!! mk_test v1.0  locked, cocked, and ready to RAWWWWWWK \\M/ (-_-) \\M/ !!!!!");
 console.log("!\t\t\tWritten by Michael Kerner in like 5 seconds(it shows)")
 console.log("************************************************************************************");
 
