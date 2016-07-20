@@ -67,6 +67,10 @@ body>div{
 	#crt_footer{
 		display:hidden;
 	}
+
+    #crt_map {
+        bottom:0;
+    }
 }
 
 #slidein_button{
