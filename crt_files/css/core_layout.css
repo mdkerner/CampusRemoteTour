@@ -24,10 +24,12 @@ body>div{
   transition:all 1s ease;
 }
 
-#crt_vid_overlay img{
-  position:relative;;
-  left:100px;
-  top:15%;
+#crt_vid_frame {
+  position:relative;
+  width:50%;
+  height:50%;
+  margin-left:15%;
+  margin-top:15%;
 }
 
 #crt_map {
@@ -36,6 +38,14 @@ body>div{
 
 #crt_footer {
   height: 10%;
+}
+
+#slidein_button{
+  height:100px;
+  width:200px;
+  margin-left:50px;
+  font-size:3em;
+  cursor:pointer;
 }
 
 .footnote{
@@ -50,5 +60,5 @@ body>div{
 }
 
 .slideIn {
-  width:100px;
+  width:0px;
 }

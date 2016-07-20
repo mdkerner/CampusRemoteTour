@@ -11,9 +11,8 @@
       <h2>Campus Remote Tours</h2>
     </div>
     <div id="crt_vid_overlay" class="overlay border slideIn">
-      <span id="slideout_button"> SlideOut</span>
-      <span id="slidein_button"> SlideIn</span>
-      <img src="videos\rickroll.gif" />
+      <button id="slidein_button">Close</button>
+      <iframe id="crt_vid_frame" title="Campus Tour Player"  type="text/html" frameborder="0" allowFullScreen></iframe>
     </div>
     <div id="crt_map" class="border"></div>
     <div id="crt_footer" class="border">
@@ -25,7 +24,7 @@
     <object type="text/html" data="mk_test/mk_test_load.html" ></object>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDzDoMfSR5Otfz5eulW6iiSYFBZWO57wYs&callback=initMap" async defer></script>
-    <script src="crt_files/campus_remote_tour.js"></script>
+    <script src="crt_files/js/campus_remote_tour.js"></script>
 
   </body>
 </html>
