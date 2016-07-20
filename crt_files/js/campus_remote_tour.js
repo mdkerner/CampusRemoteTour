@@ -24,7 +24,8 @@ function load_landmarks(){
         name : data[i].name,
         lat : data[i].lat,
         lng : data[i].lng,
-        vid_url: data[i].vid_url
+        vid_url: data[i].vid_url,
+        info: data[i].info
       };
       create_marker(landmark);
     }
@@ -48,7 +49,13 @@ function create_marker(landmark){
     });
     marker.addListener('click', function() {
         load_video(landmark.vid_url);
+        load_info(landmark.name, landmark.info);
     });
+}
+
+function load_info(name, info){
+    $("#crt_information_pane_header").html(name);
+    $("#crt_information_pane_info").html(info);
 }
 
 function load_video(vid_url){

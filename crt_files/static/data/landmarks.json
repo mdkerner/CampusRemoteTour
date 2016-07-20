@@ -2,20 +2,24 @@
   "name": "Storke Tower",
   "lat": 34.4126604,
   "lng": -119.8483737,
-  "vid_url": "https://www.youtube.com/embed/UuJyWDq6r8g"
+  "vid_url": "https://www.youtube.com/embed/UuJyWDq6r8g",
+    "info":"Storke Tower is the tallest structure in Santa Barbara County. It stands 175 feet tall. The smallest bell weighs 13 pounds. The largest bell weighs 4,793 pounds.  The Storke Tower Pond is a self sustaining ecosystem. The UCSB ROTC used Storke Tower for Mountaineering Training until 2005. Professor Margo Halsted plays the bells every Monday morning. (She plays “Hedwig’s Theme” from Harry Potter!)"
 }, {
   "name": "University Bookstore",
   "lat": 34.4116856,
   "lng": -119.8484508,
-  "vid_url": "https://www.youtube.com/embed/BX6nSE2jcwk"
+  "vid_url": "https://www.youtube.com/embed/BX6nSE2jcwk",
+    "info":"It's a bookstore! But remember: Please keep in mind that FULL REFUNDS ARE ONLY AVAILABLE THE FIRST FIVE DAYS OF THE QUARTER. PLEASE KEEP YOUR RECEIPT and do not break any shrink wrap. We do, however, periodically offer ‘Buybacks’ where you can sell your textbook back to the Bookstore at a portion of the purchase price. Please scroll to the bottom of this page to see Buyback Information and locate the link to the latest price information for selling your textbook. "
 }, {
   "name": "Thunder Dome",
   "lat": 34.4138139,
   "lng": -119.8513498,
-  "vid_url": "https://www.youtube.com/embed/aefjnoXesMA"
+  "vid_url": "https://www.youtube.com/embed/aefjnoXesMA",
+  "info":"The UCSB Events Center is a multipurpose facility that strives to provide a clean, safe, well equipped venue where students, staff, faculty and community members can enjoy participating in athletic, academic, recreational or special events."
 }, {
   "name": "Michael Kerner's Office",
   "lat": 34.4164745,
   "lng": -119.8467032,
-  "vid_url": "https://www.youtube.com/embed/WgRNmHaCOPk"
+  "vid_url": "https://www.youtube.com/embed/WgRNmHaCOPk",
+  "info":"I like it! Good view of the Koi pond in the Cheadle courtyard! Close to Coral Tree! Located in Admissions!"
 }]
