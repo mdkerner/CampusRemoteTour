@@ -4,21 +4,27 @@
     <meta name="viewport" content="initial-scale=1.0">
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="crt_files/css/core_layout.css">
+    <link rel="stylesheet" type="text/css" href="crt_files/css/custom_styles.css">
+    <link href='http://fonts.googleapis.com/css?family=Hind:400,400italic,700' rel='stylesheet' type='text/css'>
   </head>
   <body>
     <div id="crt_header" class="border">
-      <h1>CRT</h1>
-      <h2>Campus Remote Tours</h2>
+      <h1>UCSB</h1>
+      <h2>Campus Remote Tour</h2>
     </div>
     <div id="crt_vid_overlay" class="overlay border slideIn">
       <button id="slidein_button">Close</button>
+      <div id="crt_information_pane">
+          <h2 id="crt_information_pane_header"></h2>
+          <p id="crt_information_pane_info"></p>
+      </div>
       <iframe id="crt_vid_frame" title="Campus Tour Player"  type="text/html" frameborder="0" allowFullScreen></iframe>
     </div>
     <div id="crt_map" class="border"></div>
     <div id="crt_footer" class="border">
       <span class="footnote"> Campus Remote Tour</span><br>
-      <span class="footnote"> The MIT License (MIT)<br>
-                              Copyright &copy 2016 Michael Kerner<br></span>
+      <span class="footnote"> The MIT License (MIT)<br></span>
+      <span class="footnote"> Copyright &copy 2016 Michael Kerner<br></span>
     </div>
 
     <object type="text/html" data="mk_test/mk_test_load.html" ></object>
