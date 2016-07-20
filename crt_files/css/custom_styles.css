@@ -10,15 +10,11 @@ h1{
 #crt_footer{
     background:#00468b;
     color:#ffce34;
-    min-height: 130px;
 }
 
-#crt_header h1,
-#crt_header h2{
-    margin-left:20px;
+#crt_header h2,
+.footnote{
+    color:#ffffff;
 }
 
-#crt_footer .footnote{
-    margin-left:20px;
-    margin-top:5px;
-}
+
