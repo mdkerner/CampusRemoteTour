@@ -1,0 +1,54 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body>div{
+  width:70%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#crt_header{
+  height:15%;
+}
+
+#crt_vid_overlay{
+  position:absolute;
+  height:100%;
+  overflow:hidden;
+  right:0;
+  top:0;
+  background: rgba(255, 255, 255, 0.7);
+  transition:all 1s ease;
+}
+
+#crt_vid_overlay img{
+  position:relative;;
+  left:100px;
+  top:15%;
+}
+
+#crt_map {
+  height: 70%;
+}
+
+#crt_footer {
+  height: 10%;
+}
+
+.footnote{
+  font-size:.8em;
+}
+.overlay{
+  z-index: 100; /* don't set any z-index higher than this*/
+}
+
+.slideOut {
+  width:100%;
+}
+
+.slideIn {
+  width:100px;
+}
