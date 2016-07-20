@@ -29,7 +29,8 @@ body>div{
 
 #crt_vid_overlay{
   position:absolute;
-  overflow:hidden;
+  overflow-y:scroll;
+  overflow-x:hidden;
   right:0;
   top:100;
   bottom:80;
@@ -49,19 +50,23 @@ body>div{
 
 #crt_vid_frame {
   position:absolute;
+  overflow:visible;
   width:50%;
   height:50%;
   right:0px;
   top:100px;
 }
 
+#crt_footer {
+    position: absolute;
+    height: 80px;
+    bottom: 0px;
+}
 
-@media(min-height:500px) {
-	#crt_footer {
-		position: absolute;
-		height: 80px;
-		bottom: 0px;
-	}
+@media(max-width:500px) {
+    #crt_header h2{
+        display:block;
+    }
 }
 @media(max-height:500px){
 	#crt_footer{
@@ -72,6 +77,7 @@ body>div{
         bottom:0;
     }
 }
+
 
 #slidein_button{
   height:100px;

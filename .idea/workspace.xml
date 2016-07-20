@@ -43,20 +43,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="core_layout.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="core_layout.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/crt_files/css/core_layout.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="623" max-vertical-offset="1768">
-              <caret line="61" column="21" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.7067416" vertical-offset="255" max-vertical-offset="1870">
+              <caret line="52" column="19" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom_styles.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="custom_styles.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/crt_files/css/custom_styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.019101124" vertical-offset="0" max-vertical-offset="890">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
               <caret line="1" column="38" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
               <folding />
             </state>
@@ -90,8 +90,8 @@
         <option value="$PROJECT_DIR$/mk_test/core_functions/core_functions.js" />
         <option value="$PROJECT_DIR$/crt_files/js/campus_remote_tour.js" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/crt_files/css/core_layout.css" />
         <option value="$PROJECT_DIR$/crt_files/css/custom_styles.css" />
+        <option value="$PROJECT_DIR$/crt_files/css/core_layout.css" />
       </list>
     </option>
   </component>
@@ -484,18 +484,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crt_files/css/core_layout.css">
+    <entry file="file://$PROJECT_DIR$/crt_files/css/custom_styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="623" max-vertical-offset="1768">
-          <caret line="61" column="21" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
+          <caret line="1" column="38" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crt_files/css/custom_styles.css">
+    <entry file="file://$PROJECT_DIR$/crt_files/css/core_layout.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.019101124" vertical-offset="0" max-vertical-offset="890">
-          <caret line="1" column="38" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.7067416" vertical-offset="255" max-vertical-offset="1870">
+          <caret line="52" column="19" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
           <folding />
         </state>
       </provider>
