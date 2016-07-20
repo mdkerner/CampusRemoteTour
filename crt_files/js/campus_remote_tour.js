@@ -3,6 +3,7 @@ $(document).ready(function(){
   $("#slidein_button").click(function(){
     $("#crt_vid_overlay").removeClass("slideOut");
     $("#crt_vid_overlay").addClass("slideIn");
+    $("#crt_vid_frame").attr("src", "");
   });
 });
 
@@ -28,8 +29,8 @@ function load_landmarks(){
       create_marker(landmark);
     }
   });
-
 }
+
 function create_marker(landmark){
     var position = new google.maps.LatLng({lat: landmark.lat, lng: landmark.lng});
     var marker_image = 'crt_files/static/img/video_icon.png';
@@ -49,6 +50,7 @@ function create_marker(landmark){
         load_video(landmark.vid_url);
     });
 }
+
 function load_video(vid_url){
     slideout_overlay($("#crt_vid_overlay"));
     $("#crt_vid_frame").attr("src", vid_url);
