@@ -20,7 +20,11 @@ body>div{
 }
 
 #crt_map {
-	height:100%;
+	position:absolute;
+    top:100;
+    bottom:80;
+    right:0;
+    left:0;
 }
 
 #crt_vid_overlay{
@@ -28,9 +32,19 @@ body>div{
   overflow:hidden;
   right:0;
   top:100;
-  bottom:0;
-  background: rgba(255, 255, 255, 0.7);
+  bottom:80;
+  background: rgba(255, 255, 255, 0.8);
   transition:all 1s ease;
+}
+#crt_information_pane{
+    position:relative;
+    margin-left:20px;
+    width:40%;
+}
+
+#crt_information_pane p{
+    font-size:1.3em;
+    margin-left:20px;
 }
 
 #crt_vid_frame {
@@ -38,7 +52,7 @@ body>div{
   width:50%;
   height:50%;
   right:0px;
-  bottom:0px;
+  top:100px;
 }
 
 
@@ -58,7 +72,7 @@ body>div{
 #slidein_button{
   height:100px;
   width:200px;
-  margin-left:50px;
+  margin:20px;
   font-size:3em;
   cursor:pointer;
 }
