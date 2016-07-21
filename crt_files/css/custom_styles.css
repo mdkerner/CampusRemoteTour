@@ -5,7 +5,6 @@ body{
 h1{
     font-size:3em;
 }
-
 #crt_header,
 #crt_footer{
     background:#00468b;
@@ -17,9 +16,13 @@ h1{
     color:#ffffff;
 }
 
-#slidein_button{
+#slidein_button,
+.labels {
     background-color:#ffce34;
     color:#00468b;
 }
 
-
+.labels{
+    height:20px;
+    width:50px;
+}

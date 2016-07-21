@@ -1,10 +1,10 @@
 $(document).ready(function(){
 
-  $("#slidein_button").click(function(){
-    $("#crt_vid_overlay").removeClass("slideOut");
-    $("#crt_vid_overlay").addClass("slideIn");
-    $("#crt_vid_frame").attr("src", "");
-  });
+    $("#slidein_button").click(function(){
+        $("#crt_vid_overlay").removeClass("slideOut").addClass("slideIn");
+        $("#crt_vid_frame").attr("src", "");
+    });
+    $("#crt_logo").attr("src", "crt_files/static/img/logo.png").attr("alt", "Site Logo");
 });
 
 function initMap() {
@@ -35,11 +35,6 @@ function load_landmarks(){
 function create_marker(landmark){
     var position = new google.maps.LatLng({lat: landmark.lat, lng: landmark.lng});
     var marker_image = 'crt_files/static/img/video_icon.png';
-    var beachMarker = new google.maps.Marker({
-        position: position,
-        map: map,
-        icon: marker_image
-    });
 
     var marker = new google.maps.Marker({
         position: position,
@@ -47,6 +42,7 @@ function create_marker(landmark){
         title: landmark.name,
         icon: marker_image
     });
+
     marker.addListener('click', function() {
         load_video(landmark.vid_url);
         load_info(landmark.name, landmark.info);
@@ -64,6 +60,5 @@ function load_video(vid_url){
 }
 
 function slideout_overlay(element){
-  $(element).removeClass("slideIn");
-  $(element).addClass("slideOut");
+  $(element).removeClass("slideIn").addClass("slideOut");
 }

@@ -19,6 +19,12 @@ body>div{
 	display:inline;
 }
 
+#crt_logo{
+    position:absolute;
+    right:0px;
+    margin:10px;
+}
+
 #crt_map {
 	position:absolute;
     top:100px;
@@ -66,21 +72,6 @@ body>div{
     bottom: 0px;
 }
 
-@media(max-width:500px) {
-    #crt_header h2{
-        display:block;
-    }
-}
-@media(max-height:500px){
-	#crt_footer{
-    display:none;
-	}
-
-    #crt_map {
-        bottom:0;
-    }
-}
-
 #slidein_button{
   height:50px;
   width:100px;
@@ -109,4 +100,24 @@ body>div{
 .centered{
     margin-left:auto;
     margin-right:auto;
+}
+
+@media(max-width:800px) {
+    #crt_header h2{
+        display:none;
+    }
+}
+@media(max-width:500px) {
+    #crt_logo {
+        display:none;
+    }
+}
+@media(max-height:500px){
+    #crt_footer{
+        display:none;
+    }
+
+    #crt_map {
+        bottom:0;
+    }
 }
