@@ -1,0 +1,25 @@
+body{
+    font-family:Hind arial sans-serif;
+}
+
+h1{
+    font-size:3em;
+}
+
+#crt_header,
+#crt_footer{
+    background:#00468b;
+    color:#ffce34;
+}
+
+#crt_header h2,
+.footnote{
+    color:#ffffff;
+}
+
+#slidein_button{
+    background-color:#ffce34;
+    color:#00468b;
+}
+
+

@@ -2,54 +2,94 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
+	overflow:hidden;
 }
 
 body>div{
-  width:70%;
-  margin-left:auto;
-  margin-right:auto;
+	width:100%;
 }
 
 #crt_header{
-  height:15%;
+	height:100px;
+}
+
+#crt_header h1,
+#crt_header h2{
+	margin-left:20px;
+	display:inline;
+}
+
+#crt_map {
+	position:absolute;
+    top:100;
+    bottom:80;
+    right:0;
+    left:0;
 }
 
 #crt_vid_overlay{
   position:absolute;
-  height:100%;
-  overflow:hidden;
+  overflow-y:scroll;
+  overflow-x:hidden;
   right:0;
-  top:0;
-  background: rgba(255, 255, 255, 0.7);
+  top:100;
+  bottom:80;
+  background: rgba(255, 255, 255, 0.8);
   transition:all 1s ease;
+}
+#crt_information_pane{
+    position:relative;
+    margin-left:20px;
+    width:40%;
+}
+
+#crt_information_pane p{
+    font-size:1.3em;
+    margin-left:20px;
 }
 
 #crt_vid_frame {
-  position:relative;
+  position:absolute;
+  overflow:visible;
   width:50%;
   height:50%;
-  margin-left:15%;
-  margin-top:15%;
-}
-
-#crt_map {
-  height: 70%;
+  right:0px;
+  top:100px;
 }
 
 #crt_footer {
-  height: 10%;
+    position: absolute;
+    height: 80px;
+    bottom: 0px;
 }
+
+@media(max-width:500px) {
+    #crt_header h2{
+        display:block;
+    }
+}
+@media(max-height:500px){
+	#crt_footer{
+		display:hidden;
+	}
+
+    #crt_map {
+        bottom:0;
+    }
+}
+
 
 #slidein_button{
   height:100px;
   width:200px;
-  margin-left:50px;
+  margin:20px;
   font-size:3em;
   cursor:pointer;
 }
 
 .footnote{
   font-size:.8em;
+	margin:5px;
 }
 .overlay{
   z-index: 100; /* don't set any z-index higher than this*/

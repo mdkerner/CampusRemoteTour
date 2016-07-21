@@ -3,6 +3,7 @@ $(document).ready(function(){
   $("#slidein_button").click(function(){
     $("#crt_vid_overlay").removeClass("slideOut");
     $("#crt_vid_overlay").addClass("slideIn");
+    $("#crt_vid_frame").attr("src", "");
   });
 });
 
@@ -23,13 +24,14 @@ function load_landmarks(){
         name : data[i].name,
         lat : data[i].lat,
         lng : data[i].lng,
-        vid_url: data[i].vid_url
+        vid_url: data[i].vid_url,
+        info: data[i].info
       };
       create_marker(landmark);
     }
   });
-
 }
+
 function create_marker(landmark){
     var position = new google.maps.LatLng({lat: landmark.lat, lng: landmark.lng});
     var marker_image = 'crt_files/static/img/video_icon.png';
@@ -47,8 +49,15 @@ function create_marker(landmark){
     });
     marker.addListener('click', function() {
         load_video(landmark.vid_url);
+        load_info(landmark.name, landmark.info);
     });
 }
+
+function load_info(name, info){
+    $("#crt_information_pane_header").html(name);
+    $("#crt_information_pane_info").html(info);
+}
+
 function load_video(vid_url){
     slideout_overlay($("#crt_vid_overlay"));
     $("#crt_vid_frame").attr("src", vid_url);
