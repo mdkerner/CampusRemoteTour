@@ -126,4 +126,8 @@ body>div{
     #crt_map {
         bottom:0;
     }
+
+    #crt_logo {
+        height:120px;
+    }
 }
