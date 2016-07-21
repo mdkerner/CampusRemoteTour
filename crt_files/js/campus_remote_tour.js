@@ -10,7 +10,7 @@ $(document).ready(function(){
 function initMap() {
   map = new google.maps.Map(document.getElementById('crt_map'), {
     center: {lat: 34.4126452, lng: -119.8471294},
-    zoom: 18
+    zoom: 16
   });
 
   load_landmarks();
