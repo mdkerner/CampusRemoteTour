@@ -73,6 +73,7 @@ body>div{
 
 #crt_footer {
     position: absolute;
+    padding-top:10px;
     height: 80px;
     bottom: 0px;
 }
