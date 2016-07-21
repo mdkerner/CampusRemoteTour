@@ -21,8 +21,8 @@ body>div{
 
 #crt_map {
 	position:absolute;
-    top:100;
-    bottom:80;
+    top:100px;
+    bottom:80px;
     right:0;
     left:0;
 }
@@ -32,30 +32,33 @@ body>div{
   overflow-y:scroll;
   overflow-x:hidden;
   right:0;
-  top:100;
-  bottom:80;
+  top:100px;
+  bottom:80px;
   background: rgba(255, 255, 255, 0.8);
   transition:all 1s ease;
 }
-#crt_information_pane{
-    position:relative;
+
+#crt_vid_frame {
+    position:absolute;
+    display:block;
     margin-left:20px;
-    width:40%;
+    top:140px;
+    height:200px;
+}
+
+#crt_information_pane{
+    position:absolute;
+    display:block;
+    top:340px;
+    padding-left:20px;
+    padding-right:20px;
 }
 
 #crt_information_pane p{
+    display:block;
     font-size:1.3em;
-    margin-left:20px;
 }
 
-#crt_vid_frame {
-  position:absolute;
-  overflow:visible;
-  width:50%;
-  height:50%;
-  right:0px;
-  top:100px;
-}
 
 #crt_footer {
     position: absolute;
@@ -70,7 +73,7 @@ body>div{
 }
 @media(max-height:500px){
 	#crt_footer{
-		display:hidden;
+    display:none;
 	}
 
     #crt_map {
@@ -78,18 +81,18 @@ body>div{
     }
 }
 
-
 #slidein_button{
-  height:100px;
-  width:200px;
-  margin:20px;
-  font-size:3em;
+  height:50px;
+  width:100px;
+    display:block;
+  font-size:1.5em;
   cursor:pointer;
+    margin:20px;
 }
 
 .footnote{
   font-size:.8em;
-	margin:5px;
+    margin:5px;
 }
 .overlay{
   z-index: 100; /* don't set any z-index higher than this*/
@@ -101,4 +104,9 @@ body>div{
 
 .slideIn {
   width:0px;
+}
+
+.centered{
+    margin-left:auto;
+    margin-right:auto;
 }

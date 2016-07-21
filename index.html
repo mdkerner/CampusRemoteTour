@@ -8,20 +8,20 @@
     <link href='http://fonts.googleapis.com/css?family=Hind:400,400italic,700' rel='stylesheet' type='text/css'>
   </head>
   <body>
-    <div id="crt_header" class="border">
+    <div id="crt_header" class="border centered">
       <h1>UCSB</h1>
       <h2>Campus Remote Tour</h2>
     </div>
-    <div id="crt_vid_overlay" class="overlay border slideIn">
+    <div id="crt_vid_overlay" class="overlay border slideIn centered">
       <button id="slidein_button">Close</button>
-      <div id="crt_information_pane">
+      <iframe id="crt_vid_frame"title="Campus Tour Player"  type="text/html" frameborder="0" allowFullScreen></iframe>
+      <div id="crt_information_pane" class="centered">
           <h2 id="crt_information_pane_header"></h2>
           <p id="crt_information_pane_info"></p>
       </div>
-      <iframe id="crt_vid_frame" title="Campus Tour Player"  type="text/html" frameborder="0" allowFullScreen></iframe>
     </div>
-    <div id="crt_map" class="border"></div>
-    <div id="crt_footer" class="border">
+    <div id="crt_map" class="centered" class="border"></div>
+    <div id="crt_footer" class="centered" class="border">
       <span class="footnote"> Campus Remote Tour</span><br>
       <span class="footnote"> The MIT License (MIT)<br></span>
       <span class="footnote"> Copyright &copy 2016 Michael Kerner<br></span>
