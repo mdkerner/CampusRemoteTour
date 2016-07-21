@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74072d31-9b59-4ff8-bc3a-c75886fab49e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mk_test/core_functions/core_functions.js" afterPath="$PROJECT_DIR$/mk_test/core_functions/core_functions.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crt_files/css/core_layout.css" afterPath="$PROJECT_DIR$/crt_files/css/core_layout.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mk_test/test.js" afterPath="$PROJECT_DIR$/mk_test/test.js" />
     </list>
     <ignored path="CampusRemoteTour.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,8 +26,8 @@
       <file leaf-file-name="core_layout.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/crt_files/css/core_layout.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.17865169">
-              <caret line="74" column="16" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.29325843">
+              <caret line="71" column="5" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -341,8 +338,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/crt_files/css/core_layout.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17865169">
-          <caret line="74" column="16" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.29325843">
+          <caret line="71" column="5" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
           <folding />
         </state>
       </provider>
