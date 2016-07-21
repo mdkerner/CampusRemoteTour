@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74072d31-9b59-4ff8-bc3a-c75886fab49e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crt_files/css/core_layout.css" afterPath="$PROJECT_DIR$/crt_files/css/core_layout.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crt_files/static/data/landmarks.json" afterPath="$PROJECT_DIR$/crt_files/static/data/landmarks.json" />
     </list>
     <ignored path="CampusRemoteTour.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -54,11 +53,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="core_layout.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="core_layout.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/crt_files/css/core_layout.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6179775">
+            <state vertical-scroll-proportion="0.0">
               <caret line="76" column="13" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="landmarks.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/crt_files/static/data/landmarks.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0787037">
+              <caret line="4" column="55" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -78,6 +87,7 @@
         <option value="$PROJECT_DIR$/crt_files/js/campus_remote_tour.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/crt_files/css/core_layout.css" />
+        <option value="$PROJECT_DIR$/crt_files/static/data/landmarks.json" />
       </list>
     </option>
   </component>
@@ -186,6 +196,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -462,8 +476,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/crt_files/css/core_layout.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6179775">
+        <state vertical-scroll-proportion="0.0">
           <caret line="76" column="13" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crt_files/static/data/landmarks.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0787037">
+          <caret line="4" column="55" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
           <folding />
         </state>
       </provider>
