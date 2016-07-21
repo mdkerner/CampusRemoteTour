@@ -122,6 +122,9 @@ body>div{
     #crt_footer{
         display:none;
     }
+    #crt_logo{
+        height:140px;
+    }
 
     #crt_map {
         bottom:0;
