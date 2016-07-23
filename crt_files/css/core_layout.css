@@ -122,6 +122,8 @@ body>div{
     #crt_footer {
         display: none;
     }
+
+    #crt_vid_overlay,
     #crt_map {
         bottom:0;
     }
